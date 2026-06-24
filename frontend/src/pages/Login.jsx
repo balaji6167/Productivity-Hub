@@ -43,7 +43,7 @@ const Login = () => {
         Swal.fire({
           icon: "success",
           title: "Account Created",
-          text: "Welcome to TaskPilot!",
+          text: "Welcome to Productivity Hub!",
           timer: 1500,
           showConfirmButton: false
         });
@@ -77,7 +77,7 @@ const Login = () => {
       Swal.fire({
         icon: "success",
         title: "Google Login Success",
-        text: "Welcome to TaskPilot!",
+        text: "Welcome to Productivity Hub!",
         timer: 1500,
         showConfirmButton: false
       });
@@ -118,7 +118,7 @@ const Login = () => {
               <CheckSquare size={30} className="text-white" />
             </div>
             {/* Title */}
-            <h2 className="text-3xl font-extrabold tracking-tight mb-2">TaskPilot</h2>
+            <h2 className="text-3xl font-extrabold tracking-tight mb-2">Productivity Hub</h2>
             <p className="text-white/80 text-sm font-medium leading-relaxed">
               Manage your projects with clarity and precision
             </p>
